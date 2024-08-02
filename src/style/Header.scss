@@ -1,0 +1,67 @@
+.header {
+  font-family: Roboto;
+  font-weight: 100;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #f9f9f9;
+  padding: 10px 0;
+  position: relative;
+
+  menu {
+    display: flex;
+    gap: 20px; //button gap 
+
+  }
+
+  .button-menu {
+    background: none;
+    border: none;
+    font-size: 1rem;
+    font-weight: 100;
+    cursor: pointer;
+    padding: 5px 10px;
+  }
+
+  &::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 800px; // Szerokość widocznej linii
+    border-bottom: 1px solid #d1d1d1; // Kolor i styl linii
+  }
+
+
+      // Media query for smaller screens
+  @media (max-width: 768px) {
+    font-size: 0.7rem;
+
+    .button-menu {
+      font-size: 0.7rem;
+      padding: 5px 8px;
+    }
+
+    &::after {
+      width: 80px; // Adjust line width for smaller screens
+    }
+  }
+
+  @media (max-width: 480px) {
+    font-size: 0.65rem;
+
+    .button-menu {
+      font-size: 0.65rem;
+      padding: 5px 6px;
+    }
+
+    &::after {
+      width: 60px; // Adjust line width for smaller screens
+    }
+  }
+}

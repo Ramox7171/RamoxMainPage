@@ -1,0 +1,154 @@
+body {
+  background-color: #f9f9f9;
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.wrapper {
+  display: flex;
+  flex-flow: row wrap;
+  font-weight: bold;
+  text-align: center;
+}
+
+.wrapper > * {
+  padding: 10px;
+  flex: 1 100%;
+}
+
+
+
+
+
+.main {
+  text-align: left;
+  display: inline-block;
+}
+
+.aside-1 {
+  margin: 20px;
+  background: red;
+  width: 200px;
+  border-right: 1px solid #000000;
+}
+
+.aside-2 {
+  margin: 20px;
+  background: hotpink;
+  width: 200px;
+}
+
+.card {
+  padding: 2em;
+  width: 300px;
+  background-color: #ffffff;
+  text-align: center;
+  border-radius: 10px;
+  position: relative;
+}
+
+@property --angle {
+  syntax: '<angle>';
+  initial-value: 0deg;
+  inherits: false;
+}
+
+.card::after,
+.card::before {
+  content: '';
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-image: conic-gradient(from var(--angle), #ff4545, #00ff99, #006aff, #ff0095);
+  top: 50%;
+  left: 50%;
+  translate: -50% -50%;
+  z-index: -1;
+  padding: 3px;
+  border-radius: 10px;
+  animation: 3s spin linear infinite;
+}
+
+.card::before {
+  filter: blur(1.5rem);
+  opacity: 0.5;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+@keyframes spin {
+  from {
+    --angle: 0deg;
+  }
+  to {
+    --angle: 360deg;
+  }
+}
+
+@media all and (min-width: 600px) {
+  .aside {
+    flex: 1 0 0;
+  }
+}
+
+@media all and (min-width: 800px) {
+  .main {
+    flex: 3 0px;
+  }
+  .aside-1 {
+    order: 1;
+  }
+  .main {
+    order: 2;
+  }
+  .aside-2 {
+    order: 3;
+  }
+  .footer {
+    order: 4;
+  }
+}
+
+.button-menu {
+  padding: 50px;
+  display: inline-block;
+
+  border: none;
+  background-color: #f9f9f9;
+}
+
+.button-menu:hover {
+  animation: wiggle 0.5s;
+}
+
+
+
+
+
+
+@keyframes spin {
+  from {
+    --angle: 0deg;
+  }
+  to {
+    --angle: 360deg;
+  }
+}
+
+@keyframes wiggle {
+  0%,
+  100% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(-5deg);
+  }
+  75% {
+    transform: rotate(5deg);
+  }
+}

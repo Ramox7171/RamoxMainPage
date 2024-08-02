@@ -1,0 +1,27 @@
+.footer { 
+  font-family: Roboto;
+  font-size: 0.75rem;
+  font-weight: 200;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #f9f9f9;
+  text-align: left;
+  padding: 10px 0;
+ 
+
+  
+    span {
+      margin-left: 10px; //margin
+    }
+        &::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 800px; // width of line
+    border-top: 1px solid #d1d1d1; // color and style
+  }
+}
+  
