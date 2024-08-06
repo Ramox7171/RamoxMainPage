@@ -13,10 +13,13 @@ export default function SocialButtons() {
   return (
     
     <div className='socialbuttons'>
-      <a href={fb}><img src={facebook} alt="facebook" /></a>
-      <a href={insta}><img src={instagram} alt="instagram" /></a>
-      <a href={git}><img src={github} alt="github" /></a>
       <a href={linked}><img src={linkedin} alt="linkedin" /></a>
+      <a href={git}><img src={github} alt="github" /></a>
+      <a href={insta}><img src={instagram} alt="instagram" /></a>
+      <a href={fb}><img src={facebook} alt="facebook" /></a>
+      
+     
+      
    
       </div>
     
