@@ -4,6 +4,10 @@ import SocialButtons from './SocialButtons';
 export default function Header() {
   return (
     <div className="header">
+      <div className='header__name'>
+        <p className='name'>Mikołaj Lora</p>
+        <p className='title'>Frontend Developer</p>
+      </div>
       <menu>
         <button className="button-menu">Home</button>
         <button className="button-menu">Projects</button>
