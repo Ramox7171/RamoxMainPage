@@ -1,79 +1,95 @@
-body {
-  background-color: #f9f9f9;
+* {
   margin: 0;
   padding: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  box-sizing: border-box;
+   background-color: #f9f9f9;
+   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+.container {
+ max-width: 1200px; /* Max width*/
+  margin: 0 auto; 
+  padding: 50px; 
+  box-sizing: border-box;
+  
+}
+
 .wrapper {
   display: flex;
   flex-flow: row wrap;
-  font-weight: bold;
   text-align: center;
 }
-
-.wrapper > * {
-  padding: 10px;
-  flex: 1 100%;
-}
-
-
-
 
 
 .main {
   text-align: left;
   display: inline-block;
+  width: 100%; 
 }
-
-.aside-1 {
-  margin: 20px;
- opacity: 0.8;
-  width: 200px;
-  border: 1px solid #000000;
-}
-
-.aside-2 {
-  margin: 20px;
- opacity: 0.8;
-  width: 200px;
-  border: 1px solid #000000;
-}
-
-
 
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
 }
 
+// /* small smartphones */
+// @media (max-width: 599px) {
+//   // .wrapper {
+//   //   max-width: calc(100% - 40px); /* Marginesy po 20px z każdej strony */
+//   // }
 
+//   h1 {
+//     font-size: 2.4em;
+//   }
 
-@media all and (min-width: 600px) {
-  .aside {
-    flex: 1 0 0;
-  }
-}
+//   .main {
+//     width: 100%;
+//   }
+// }
 
-@media all and (min-width: 800px) {
-  .main {
-    flex: 3 0px;
-  }
-  .aside-1 {
-    order: 1;
-  }
-  .main {
-    order: 2;
-  }
-  .aside-2 {
-    order: 3;
-  }
-  .footer {
-    order: 4;
-  }
-}
+// /* cheap tablets */
+// @media (min-width: 600px) and (max-width: 799px) {
+//   // .wrapper {
+//   //   max-width: calc(100% - 80px); /* Margins 200px */
+//   // }
 
+//   h1 {
+//     font-size: 2.8em;
+//   }
 
+//   .main {
+//     width: 100%;
+//   }
+// }
 
+// /* Tablets, thinkpads */
+// @media (min-width: 800px) and (max-width: 1199px) {
+//   // .wrapper {
+//   //   max-width: calc(100% - 200px); /* Margins 200px */
+//   // }
 
+//   h1 {
+//     font-size: 3em;
+//   }
+
+//   .main {
+//     flex: 3;
+//   }
+// }
+
+// /* bog screens*/
+// @media (min-width: 1200px) {
+//   // .wrapper {
+//   //   max-width: calc(100% - 400px); /* Margins 200px*/
+//   // }
+
+//   h1 {
+//     font-size: 3.2em;
+//   }
+
+//   .main {
+//     flex: 3;
+//   }
+// }
