@@ -1,0 +1,145 @@
+/* HERO */
+.hero {
+  display: flex;
+  gap: 20px;
+  text-align: left;
+  padding: 2rem;
+  font-size: 1.5rem;
+  line-height: 2.5;
+  letter-spacing: 0.2rem;
+  position: relative;
+  opacity: 0.7;
+
+  &::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 1000px;
+    border-bottom: 1px solid #d1d1d1;
+  }
+}
+
+/* CONTENT */
+.content {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  align-items: flex-start;
+  padding: 2rem;
+  h3 {
+    opacity: 0.7;
+  }
+
+    h4{
+        opacity: 0.7;
+        
+        
+        top: 50%;
+    
+    margin-top: 30px;
+   
+        }
+
+  p {
+    opacity: 0.7;
+  }
+
+  &::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    
+  }
+}
+
+/* SKILLS */
+.skills {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+  box-sizing: border-box;
+}
+
+.skill {
+  background-color: #000000;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: transform 0.2s;
+  margin: 0;
+  min-width: 60px;
+  box-sizing: border-box;
+  opacity: 0.7;
+}
+
+/* PHOTO */
+.photo img {
+  max-width: 275px;
+  height: auto;
+  filter: grayscale(100%);
+
+  transition: filter 0.5s ease;
+  padding: 10px 10px 40px 10px;
+  border: solid 1px;
+
+  &:hover {
+    filter: none;
+    -webkit-filter: none;
+  }
+}
+
+/* ABOUT TEXT */
+.about-text {
+  max-width: 600px;
+}
+
+.about-text h3 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+.about-text p {
+  line-height: 1.6;
+  font-size: 1rem;
+  color: #333;
+}
+// Social buttons
+  .social {
+    margin-bottom: 0;
+    background: none;
+    display: flex;
+    gap: 30px;
+    
+    // right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-top: 30px;
+    margin-right: 20px;
+
+    a {
+       margin: 50px 0px 0px;
+      border: none;
+      background: none;
+
+      img {
+        
+        // margin-top: 20px;
+        width: 50px;
+        opacity: 0.5;
+        &:hover {
+          animation: wiggle 0.5s;
+        }
+      }
+    }
+  }
+
