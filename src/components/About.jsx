@@ -33,13 +33,13 @@ export default function About() {
         <div className='about-text'>
           <h3>About</h3>
           <p>{bioText}</p>
-          <h4>You can "say hello..." here : </h4>
+          <h4>You can say hello here : </h4>
           
           <SocialButtons className='social' />
           
         </div>
         
-      </section>
+      </section> 
      
     </>
   );

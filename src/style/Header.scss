@@ -100,10 +100,10 @@
     font-size: 0.7rem;
 
     .header__name {
-      position: relative; // Zmiana pozycjonowania na względne
-      margin-bottom: 20px; // Odstęp poniżej nazwy
-      left: auto; // Resetowanie przesunięcia w lewo
-      top: auto; // Resetowanie przesunięcia od góry
+      position: relative; 
+      margin-bottom: 20px; 
+      left: auto; 
+      top: auto; 
     }
 
     menu {
@@ -134,19 +134,20 @@
   }
 
   @media (max-width: 480px) {
-    font-size: 0.7rem;
+    font-size: 1rem;
 
     .header__name {
-      margin-bottom: 10px; // Mniejszy odstęp poniżej nazwy
+      margin-bottom: 10px; 
     }
 
     menu {
       margin-bottom: 10px;
-      gap: 15px;
+      
     }
 
     .button-menu {
-      font-size: 0.65rem;
+      font-size: 0.7rem;
+
       padding: 5px 6px;
     }
 
@@ -157,6 +158,7 @@
     .socialbuttons {
       gap: 30px;
       margin-top: 10px;
+      justify-items: center;
     }
   }
 }
