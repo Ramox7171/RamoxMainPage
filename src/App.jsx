@@ -1,8 +1,9 @@
 import Header from './components/Header';
 import './style/App.scss';
-import About from './components/About.jsx';
+
 
 import Footer from './components/Footer.jsx';
+import ContactForm from './components/ContactForm.jsx';
 
 function App() {
   return (
@@ -13,7 +14,7 @@ function App() {
 
       <div className='wrapper'>
         <div className='main'>
-          <About />
+          <ContactForm />
         </div>
       </div>
       </div>

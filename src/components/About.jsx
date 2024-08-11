@@ -1,10 +1,10 @@
 import '../style/About.scss';
-import { SKILLS } from '../assets/store/DATA.js';
+import { SKILLS,bioText } from '../assets/store/DATA.js';
 import SocialButtons from './SocialButtons';
 
 
-const bioText =
-  'I am an experienced professional with a diverse technical background, including roles as a computer technician, Delphi developer, and technical support specialist. Currently, I am passionately returning to programming as a FrontEnd Developer, dedicating every free moment to exploring the vast world of JavaScript.I possess excellent communication skills, the ability to work well in a team, and a high level of professionalism. I am punctual, goal-oriented, and ready for new challenges as a Frontend Developer.';
+
+
 
 export default function About() {
   return (

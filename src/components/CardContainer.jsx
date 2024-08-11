@@ -2,7 +2,7 @@ import ProjectCardItem from './ProjectCardItem.jsx';
 import '../style/CardContainer.scss';
 import {PROJECTS}  from '../assets/store/DATA.js';
 
-// eslint-disable-next-line react/prop-types
+
 export default function CardContainer() {
   return (
     <div className='card-container'>
