@@ -23,11 +23,11 @@ export default function ContactForm() {
     handleInputBlur: handleNameBlur,
     hasError: nameHasError,
   } = useInput('', (value) => {
-    isNotEmpty(value);
+   return isNotEmpty(value);
   });
 
   const { value: textValue, handleInputChange: handleTextChange, handleInputBlur:handleTextBlur, hasError:messageHasError} = useInput('',(value)=>{
-    isNotEmpty(value);
+   return isNotEmpty(value);
   });
 
   function handleSubmit(event) {
@@ -90,7 +90,7 @@ export default function ContactForm() {
           <button className='button'>Reset</button>
           <button
             className='button'
-            onClick={handleSubmit}>
+            type='submit'>
             Send it.
           </button>
         </p>
