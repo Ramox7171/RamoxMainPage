@@ -5,15 +5,15 @@ export default function Header() {
   return (
     <div className='header'>
       <div className='header__name'>
-        <p className='name'>Mikołaj Lora</p>
-        <p className='title'>Frontend Developer</p>
+        <p className='header__name-text'>Mikołaj Lora</p>
+        <p className='header__title'>Frontend Developer</p>
       </div>
       <menu>
-        <button className='button-menu'>Home</button>
-        <button className='button-menu'>Projects</button>
-        <button className='button-menu'>Landings</button>
-        <button className='button-menu'>About</button>
-        <button className='button-menu'>Contact</button>
+        <button className='header__button-menu'>Home</button>
+        <button className='header__button-menu'>Projects</button>
+        <button className='header__button-menu'>Landings</button>
+        <button className='header__button-menu'>About</button>
+        <button className='header__button-menu'>Contact</button>
       </menu>
       <SocialButtons />
     </div>
