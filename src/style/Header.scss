@@ -9,30 +9,30 @@
   top: 10px;
   width: 100%;
   background-color: #f9f9f9;
-  padding: 40px 0; // Zwiększenie paddingu o 20px
+  padding: 40px 0; 
   position: relative;
-  margin-bottom: 20px; // Dodanie dolnego marginesu
+  margin-bottom: 20px; 
 
   // Header Name
   .header__name {
-    position: absolute; // Pozycjonowanie absolutne
-    top: 30px; // Odstęp od góry
-    left: 50px; // Odstęp od lewej krawędzi
-    text-align: left; // Wyrównanie tekstu do lewej
+    position: absolute; 
+    top: 30px; 
+    left: 50px; 
+    text-align: left; 
     opacity: 0.6;
 
     .name {
-      font-size: 2rem; // Duża czcionka dla imienia
-      font-weight: 700; // Mocniejsza czcionka
-      margin: 0; // Usunięcie marginesów
+      font-size: 2rem; 
+      font-weight: 700; 
+      margin: 0; 
     }
 
     .title {
       font-family: Zain;
-      font-size: 1.2rem; // Mniejsza czcionka dla tytułu
-      font-weight: 400; // Lżejsza czcionka
-      margin: 0; // Usunięcie marginesów
-      margin-left: 40px; // Przesunięcie w prawo względem dużego napisu
+      font-size: 1.2rem; 
+      font-weight: 400; 
+      margin: 0; 
+      margin-left: 40px; 
     }
   }
 
@@ -59,29 +59,7 @@
   }
 
   // Social buttons
-  .socialbuttons {
-    display: flex;
-    align-items: center;
-    gap: 50px;
-    position: absolute;
-    right: 20px;
-    top: 50%;
-    transform: translateY(-50%);
-    margin-right: 20px;
 
-    a {
-      border: none;
-      background: none;
-
-      img {
-        width: 20px;
-        opacity: 0.5;
-        &:hover {
-          animation: wiggle 0.5s;
-        }
-      }
-    }
-  }
 
   // Linie dekoracyjne
   &::after {
@@ -121,16 +99,7 @@
       width: 80px;
     }
 
-    .socialbuttons {
-      position: relative;
-      right: auto;
-      top: auto;
-      transform: none;
-      margin-top: 10px;
-      margin-right: 20px;
-      gap: 30px;
-      order: 2;
-    }
+    
   }
 
   @media (max-width: 480px) {
@@ -155,11 +124,7 @@
       width: 60px;
     }
 
-    .socialbuttons {
-      gap: 30px;
-      margin-top: 10px;
-      justify-items: center;
-    }
+    
   }
 }
 

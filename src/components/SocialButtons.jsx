@@ -2,6 +2,7 @@ import facebook from '../assets/icons/Facebook.png';
 import github from '../assets/icons/Github.png';
 import instagram from '../assets/icons/Instagram.png';
 import linkedin from '../assets/icons/Linkedin.png';
+import '../style/SocialButtons.scss';
 
 // eslint-disable-next-line react/prop-types
 export default function SocialButtons({ className = "socialbuttons" })  {
