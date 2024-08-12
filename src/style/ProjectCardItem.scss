@@ -4,7 +4,7 @@ $text-color: #000;
 $skill-background-color: black;
 $skill-text-color: white;
 
-.project-card-item {
+.project-card {
   background: $background-color;
   height: auto;
   border: 1px solid $border-color;
@@ -48,14 +48,14 @@ $skill-text-color: white;
 }
 
 /* SKILLS */
-.skills-container {
+.project-card__skills-container {
   display: flex;
   flex-wrap: wrap;
   gap: 10px; /* Space between skill items */
   opacity: 0.7;
   box-sizing: border-box;
 
-  .skill {
+  .project-card__skill {
     background-color: $skill-background-color;
     color: $skill-text-color;
     padding: 5px 10px;
@@ -79,12 +79,12 @@ $skill-text-color: white;
 
 /* Smartphones (portrait and landscape) */
 @media (max-width: 599px) {
-  .project-card-item {
+  .project-card {
     max-width: 100%;
     flex: 1 1 100%;
   }
 
-  .skills-container {
+  .project-card__skills-container {
     gap: 5px;
   }
 
@@ -96,16 +96,16 @@ $skill-text-color: white;
 
 /* Tablets (portrait and landscape) */
 @media (min-width: 600px) and (max-width: 899px) {
-  .project-card-item {
+  .project-card {
     max-width: 100%;
     flex: 1 1 calc(50% - 40px);
   }
 
-  .skills-container {
+  .project-card__skills-container {
     gap: 8px;
   }
 
-  .skill {
+  .project-card__skill {
     font-size: 10px;
     padding: 5px 10px;
   }
@@ -113,15 +113,15 @@ $skill-text-color: white;
 
 /* Desktops (small to large) */
 @media (min-width: 900px) {
-  .project-card-item {
+  .project-card {
     flex: 1 1 calc(33.333% - 40px);
   }
 
-  .skills-container {
+  .project-card__skills-container {
     gap: 10px;
   }
 
-  .skill {
+  .project-card__skill {
     font-size: 10px;
     padding: 5px 10px;
   }

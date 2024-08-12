@@ -1,5 +1,5 @@
 /* HERO */
-.hero {
+.about__hero {
   display: flex;
   gap: 20px;
   text-align: left;
@@ -22,7 +22,7 @@
 }
 
 /* CONTENT */
-.content {
+.about__content {
   display: flex;
   justify-content: space-between;
   margin-top: 50px;
@@ -58,7 +58,7 @@
 }
 
 /* SKILLS */
-.skills {
+.about__skills {
   display: flex;
   flex-direction: column;
   gap: 10px;
@@ -66,7 +66,7 @@
   box-sizing: border-box;
 }
 
-.skill {
+.about__skill {
   background-color: #000000;
   color: #fff;
   padding: 5px 10px;
@@ -83,7 +83,7 @@
 }
 
 /* PHOTO */
-.photo img {
+.about__photo img {
   max-width: 275px;
   height: auto;
   filter: grayscale(100%);
@@ -99,16 +99,16 @@
 }
 
 /* ABOUT TEXT */
-.about-text {
+.about__text {
   max-width: 600px;
 }
 
-.about-text h3 {
+.about__text h3 {
   font-size: 1.8rem;
   margin-bottom: 1rem;
 }
 
-.about-text p {
+.about__text p {
   line-height: 1.6;
   font-size: 1rem;
   color: #333;
@@ -117,37 +117,37 @@
   
 /* MEDIA QUERIES */
 @media (max-width: 1280px) {
-  .hero {
+  .about__hero {
     font-size: 1.2rem;
     padding: 1.5rem;
   }
 
-  .content {
+  .about__content {
     padding: 1.5rem;
     margin:0;
   }
 
-  .skills {
+  .about__skills {
     gap: 8px;
   }
 
-  .skill {
+  .about__skill {
     font-size: 9px;
   }
 
-  .photo img {
+  .about__photo img {
     max-width: 200px;
   }
 
-  .about-text {
+  .about__text {
     max-width: 500px;
   }
 
-  .about-text h3 {
+  .about__text h3 {
     font-size: 1.6rem;
   }
 
-  .about-text p {
+  .about__text p {
     font-size: 0.9rem;
   }
 
@@ -155,14 +155,14 @@
 }
 
 @media (max-width: 965px) {
-  .hero {
+  .about__hero {
     flex-direction: column;
     gap: 10px;
     padding: 1rem;
     font-size: 0.8rem;
   }
 
-  .content {
+  .about__content {
     flex-direction: column;
     align-items: center;
     text-align: center;
@@ -175,31 +175,31 @@
     }
   }
 
-  .skills {
+  .about__skills {
     gap: 5px;
     flex-direction: row;
     flex-wrap: wrap;
     margin-bottom: 20px;
   }
 
-  .skill {
+  .about__skill {
     font-size: 10px;
     padding: 3px 8px;
   }
 
-  .photo img {
+  .about__photo img {
     max-width: 200px;
   }
 
-  .about-text {
+  .about__text {
     max-width: 300px;
   }
 
-  .about-text h3 {
+  .about__text h3 {
     font-size: 1.4rem;
   }
 
-  .about-text p {
+  .about__text p {
     font-size: 0.8rem;
   }
 
@@ -207,12 +207,12 @@
 }
 
 @media (max-width: 320px) {
-  .hero {
+  .about__hero {
     font-size: 0.5rem;
     line-height: 2;
   }
 
-  .content {
+  .about__content {
     padding: 0.5rem;
 
     h3, h4 {
@@ -224,28 +224,28 @@
     }
   }
 
-  .skills {
+  .about__skills {
     gap: 3px;
   }
 
-  .skill {
+  .about__skill {
     font-size: 7px;
     padding: 2px 6px;
   }
 
-  .photo img {
+  .about__photo img {
     max-width: 100px;
   }
 
-  .about-text {
+  .about__text {
     max-width: 200px;
   }
 
-  .about-text h3 {
+  .about__text h3 {
     font-size: 1.2rem;
   }
 
-  .about-text p {
+  .about__text p {
     font-size: 0.7rem;
   }
 

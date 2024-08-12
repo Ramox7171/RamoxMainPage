@@ -3,7 +3,7 @@ import '../style/ProjectCardItem.scss';
 export default function ProjectCardItem({ imgSrc, title, description, stack }) {
   return (
     <>
-      <div className='project-card-item'>
+      <div className='project-card'>
         <img
           src={imgSrc}
           alt={title}
@@ -11,11 +11,11 @@ export default function ProjectCardItem({ imgSrc, title, description, stack }) {
         <h3>{title}</h3>
         <p>{description}</p>
         <h4>Stack:</h4>
-        <div className='skills-container'>
+        <div className='project-card__skills-container'>
           {stack.map((skill, index) => (
             <p
               key={index}
-              className='skill'>
+              className='project-card__skill'>
               {skill}
             </p>
           ))}

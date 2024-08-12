@@ -41,18 +41,18 @@ export default function ContactForm() {
   }
 
   return (
-    <div className='contact'>
+    <div className='contact-form'>
     
       <h2>Contact</h2>
-      <SocialButtons className='social-contact'/>
+      <SocialButtons className='contact-form__social'/>
       
-      <div className='contact-info'>
+      <div className='contact-form__info'>
         <p>{contactText}</p>
       </div>
       <form onSubmit={handleSubmit}>
         
 
-        <div className='control-row'>
+        <div className='contact-form__control-row'>
           <Input
             label='Name'
             id='name'
@@ -82,14 +82,14 @@ export default function ContactForm() {
               onChange={handleTextChange}
               onBlur={handleTextBlur}
             />
-            {messageHasError && <p className='control-error'>Message is required.</p>}
+            {messageHasError && <p className='contact-form__control-error'>Message is required.</p>}
           </div>
         
 
-        <p className='form-actions'>
-          <button className='button'>Reset</button>
+        <p className='contact-form__actions'>
+          <button className='contact-form__button'>Reset</button>
           <button
-            className='button'
+            className='contact-form__button'
             type='submit'>
             Send it.
           </button>

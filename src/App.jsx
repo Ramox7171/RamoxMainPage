@@ -4,6 +4,7 @@ import './style/App.scss';
 
 import Footer from './components/Footer.jsx';
 
+
 import ContactForm from './components/ContactForm.jsx';
 
 function App() {

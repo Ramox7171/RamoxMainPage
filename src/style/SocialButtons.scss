@@ -1,6 +1,6 @@
 
 //CONTACT    
-.social-contact {
+.contact-form__social {
   display: flex;
   justify-content: center;
   gap: 2rem;
@@ -23,13 +23,13 @@
     
  @media (max-width: 480px) {
     
-    .social-contact a img{
+    .contact-form__social a img{
       width: 30px;
       }
     
     }
 //About
-.social {
+.about__social {
     margin-bottom: 0;
     background: none;
     display: flex;
@@ -62,7 +62,7 @@
 @media (max-width: 1280px) {
 
 
-  .social {
+  .about__social {
     gap: 20px;
   }
 }
@@ -70,7 +70,7 @@
 @media (max-width: 965px) {
   
 
-  .social {
+  .about__social {
     gap: 15px;
     display: inline-flex;
 
@@ -87,7 +87,7 @@
 @media (max-width: 320px) {
 
 
-  .social {
+  .about__social {
     gap: 10px;
 
     a {
