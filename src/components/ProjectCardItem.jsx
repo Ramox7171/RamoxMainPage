@@ -4,6 +4,7 @@ export default function ProjectCardItem({ imgSrc, title, description, stack }) {
   return (
     <>
       <div className='project-card'>
+        
         <img
           src={imgSrc}
           alt={title}
@@ -19,7 +20,9 @@ export default function ProjectCardItem({ imgSrc, title, description, stack }) {
               {skill}
             </p>
           ))}
+          
         </div>
+        
       </div>
     </>
   );
