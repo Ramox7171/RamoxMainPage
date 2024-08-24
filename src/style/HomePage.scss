@@ -3,32 +3,47 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 200px;
+  margin-top: 100px;
 }
-    h2 {
-        color: #000;
-        
-        }
+h2 {
+  color: #000;
+}
+.react-logo {
+  img {
+    margin: 50px;
+    max-height: 150px;
+    opacity: 0.3;
+    animation: rotate 20s linear infinite;
+  }
+
+  @keyframes rotate {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+}
 
 h3 {
-  font-style:oblique;
+  font-style: oblique;
   font-weight: 300;
   letter-spacing: 0.2rem;
   line-height: 2.5;
   opacity: 0.8;
-  text-align: left; 
+  text-align: left;
 }
 
 .home__section--links {
   display: flex;
-  justify-content: center; 
-  align-items: center; 
-  margin: 20px;
+  justify-content: center;
+  align-items: center;
+  gap: 200px;
 }
 
 .home__link {
   text-decoration: none;
-  padding: 50px;
-opacity: 0.7;
-
+  margin: 50px;
+  opacity: 0.7;
 }
