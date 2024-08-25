@@ -21,11 +21,11 @@ export default function Header() {
           className='header__button-menu'>
           Projects
         </NavLink>
-        <NavLink
+        {/* <NavLink
           to='/blog'
           className='header__button-menu'>
           Blog
-        </NavLink>
+        </NavLink> */}
         <NavLink
           to='/about'
           className='header__button-menu'>

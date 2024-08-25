@@ -3,6 +3,7 @@ import { isEmail, isNotEmpty } from '../utils/validation.js';
 import { useInput } from '../hooks/useInput.js';
 import '../style/ContactForm.scss';
 import { contactText } from '../assets/store/DATA.js';
+import { motion } from 'framer-motion';
 import SocialButtons from './SocialButtons.jsx';
 
 
@@ -41,7 +42,9 @@ export default function ContactForm() {
   }
 
   return (
-    <div className='contact-form'>
+    <motion.div className='contact-form' initial={{ opacity: 0, x: 0 }}
+    animate={{ x: -30, opacity: 1 }}
+    transition={{ duration: 1, type: 'spring' }}>
     
       <h2>Contact</h2>
       <SocialButtons className='contact-form__social'/>
@@ -95,6 +98,6 @@ export default function ContactForm() {
           </button>
         </p>
       </form>
-    </div>
+    </motion.div>
   );
 }

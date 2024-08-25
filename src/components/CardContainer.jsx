@@ -1,11 +1,15 @@
 import ProjectCardItem from './ProjectCardItem.jsx';
 import '../style/CardContainer.scss';
-import {PROJECTS}  from '../assets/store/DATA.js';
-
+import { motion } from 'framer-motion';
+import { PROJECTS } from '../assets/store/DATA.js';
 
 export default function CardContainer() {
   return (
-    <div className='card-container'>
+    <motion.div
+      className="card-container"
+      initial={{ opacity: 0, x: 0 }}
+      animate={{ x: -30, opacity: 1 }}
+      transition={{ duration: 1, type: 'spring' }}>
       {PROJECTS.map((project) => (
         <ProjectCardItem
           key={project.id}
@@ -15,6 +19,6 @@ export default function CardContainer() {
           stack={project.stack}
         />
       ))}
-    </div>
+    </motion.div>
   );
 }
