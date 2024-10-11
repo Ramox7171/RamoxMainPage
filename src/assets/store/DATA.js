@@ -1,47 +1,27 @@
 import { v4 as uuidv4 } from 'uuid';
 export const PROJECTS = [
-    {
-      id: uuidv4(),
-      imgSrc:  '/img/card.png',
-      title: 'Project Title',
-      description: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis id nam earum cupiditate officia deserunt alias.',
-      stack: ['JavaScript', 'React', 'Vite.js', 'TypeScript', 'Node.js', 'Photoshop', 'Webpack', 'HTML', 'CSS/SCSS', 'Tailwind CSS', 'REST API']
-    },
-    {
-      id: uuidv4(),
-      imgSrc:  '/img/card.png',
-      title: 'Project Title II',
-      description: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis id nam earum cupiditate officia deserunt alias.',
-      stack: ['JavaScript', 'React', 'Vite.js', 'TypeScript', 'Node.js', 'Photoshop', 'Webpack', 'HTML', 'CSS/SCSS', 'Tailwind CSS', 'REST API']
-    },
-    {
-      id: uuidv4(),
-      imgSrc:  '/img/card.png',
-      title: 'Project Title III ',
-      description: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis id nam earum cupiditate officia deserunt alias.',
-      stack: ['JavaScript', 'React', 'Vite.js', 'TypeScript', 'Node.js', 'Photoshop', 'Webpack', 'HTML', 'CSS/SCSS', 'Tailwind CSS', 'REST API']
-    },{
-      id: uuidv4(),
-      imgSrc:  '/img/card.png',
-      title: 'Project Title',
-      description: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis id nam earum cupiditate officia deserunt alias.',
-      stack: ['JavaScript', 'React', 'Vite.js', 'TypeScript', 'Node.js', 'Photoshop', 'Webpack', 'HTML', 'CSS/SCSS', 'Tailwind CSS', 'REST API']
-    },
-    {
-      id: uuidv4(),
-      imgSrc:  '/img/card.png',
-      title: 'Project Title II',
-      description: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis id nam earum cupiditate officia deserunt alias.',
-      stack: ['JavaScript', 'React', 'Vite.js', 'TypeScript', 'Node.js', 'Photoshop', 'Webpack', 'HTML', 'CSS/SCSS', 'Tailwind CSS', 'REST API']
-    },
-    {
-      id: uuidv4(),
-      imgSrc:  '/img/card.png',
-      title: 'Project Title III ',
-      description: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis id nam earum cupiditate officia deserunt alias.',
-      stack: ['JavaScript', 'React', 'Vite.js', 'TypeScript', 'Node.js', 'Photoshop', 'Webpack', 'HTML', 'CSS/SCSS', 'Tailwind CSS', 'REST API']
-    },
     
+    {
+      id: uuidv4(),
+      imgSrc:  '/img/hood-card.png',
+      title: 'The Hood Project',
+      description: "Project The Hood revitalizes the MTA game mod for GTA San Andreas. In collaboration with other developers and fans of this classic title, I create graphical interfaces for a custom server system. The project is centered around roleplay gameplay, where players immerse themselves in the server's life by portraying characters they've imagined, all within a unique district-based system.",
+      stack: ['React', 'Vite.js', 'TypeScript','CSS/SCSS']
+    },
+    {
+      id: uuidv4(),
+      imgSrc:  '/img/rsp-card.png',
+      title: 'RSP Console',
+      description: 'This is a simple yet fun project developed while I was learning JavaScript in November 2023. The game mimics a classic handheld console experience, where you can play the iconic Rock, Paper, Scissors game.',
+      stack: ['JavaScript','HTML','CSS/SCSS']
+    },
+    {
+      id: uuidv4(),
+      imgSrc:  '/img/calc-card.png',
+      title: 'Retro Calculator',
+      description: ' This is a web-based calculator with a delightful retro design reminiscent of old-school displays. It features animated buttons and a stylish interface to make calculations enjoyable. Note: This project was created at the very beginning of my journey with JavaScript.',
+      stack: ['JavaScript','HTML', 'CSS/SCSS',]
+    },
     
   ];
 

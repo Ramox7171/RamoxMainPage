@@ -8,18 +8,27 @@
   background-color: #f9f9f9;
   text-align: left;
   padding: 10px 0;
-
+  display: flex;         // Dodano flexbox
+  justify-content: space-between;  // Elementy na końcach stopki
+  align-items: center;   // Wyrównanie pionowe
+  
   span {
-    margin-left: 10px; //margin
+    margin-left: 10px;
     opacity: 0.5;
   }
+
   &::before {
     content: '';
     position: absolute;
     top: 0;
     left: 50%;
     transform: translateX(-50%);
-    width: 800px; // width of line
-    border-top: 1px solid #d1d1d1; // color and style
+    width: 800px; // Szerokość linii
+    border-top: 1px solid #d1d1d1;
+  }
+  
+  span img {
+    height: 20px;
+    margin-right: 10px;  // Dodałem margines z prawej strony dla lepszego wyglądu
   }
 }
