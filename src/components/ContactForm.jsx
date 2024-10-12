@@ -39,6 +39,21 @@ export default function ContactForm() {
     }
     console.log(nameValue,emailValue,textValue);
     // SEND HTTP REQUEST
+    // const sendEmail = async (e) => {
+    //   e.preventDefault();
+    
+    //   try {
+    //     const response = await emailjs.sendForm(
+    //       'YOUR_SERVICE_ID',
+    //       'YOUR_TEMPLATE_ID',
+    //       form.current,
+    //       { publicKey: 'YOUR_PUBLIC_KEY' }
+    //     );
+    //     console.log('SUCCESS!', response);
+    //   } catch (error) {
+    //     console.log('FAILED...', error.text);
+    //   }
+    // };
   }
 
   return (

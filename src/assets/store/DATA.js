@@ -6,21 +6,36 @@ export const PROJECTS = [
       imgSrc:  '/img/hood-card.png',
       title: 'The Hood Project',
       description: "Project The Hood revitalizes the MTA game mod for GTA San Andreas. In collaboration with other developers and fans of this classic title, I create graphical interfaces for a custom server system. The project is centered around roleplay gameplay, where players immerse themselves in the server's life by portraying characters they've imagined, all within a unique district-based system.",
-      stack: ['React', 'Vite.js', 'TypeScript','CSS/SCSS']
+      stack: ['React', 'Vite.js', 'TypeScript','CSS/SCSS'],
+      live: 'https://www.google.pl',
+      github: 'https://www.git.com',
+    },
+    {
+      id: uuidv4(),
+      imgSrc:  '/img/website-card.png',
+      title: 'Personal Website',
+      description: 'A personal website project showcasing information about my work as a developer. The design evolves with me, incorporating various technologies, and includes a hidden link to my photography portfolio. Try to find it :)',
+      stack: ['JavaScript','React','React Router','FRAMER MOTION','CSS/SCSS','ADOBE PHOTOSHOP'],
+      live: 'www.google.pl',
+      github: 'www.git.com',
     },
     {
       id: uuidv4(),
       imgSrc:  '/img/rsp-card.png',
       title: 'RSP Console',
       description: 'This is a simple yet fun project developed while I was learning JavaScript in November 2023. The game mimics a classic handheld console experience, where you can play the iconic Rock, Paper, Scissors game.',
-      stack: ['JavaScript','HTML','CSS/SCSS']
+      stack: ['JavaScript','HTML','CSS/SCSS'],
+      live: 'www.google.pl',
+      github: 'www.git.com',
     },
     {
       id: uuidv4(),
       imgSrc:  '/img/calc-card.png',
       title: 'Retro Calculator',
       description: ' This is a web-based calculator with a delightful retro design reminiscent of old-school displays. It features animated buttons and a stylish interface to make calculations enjoyable. Note: This project was created at the very beginning of my journey with JavaScript.',
-      stack: ['JavaScript','HTML', 'CSS/SCSS',]
+      stack: ['JavaScript','HTML', 'CSS/SCSS',],
+      live: 'www.google.pl',
+      github: 'www.git.com',
     },
     
   ];

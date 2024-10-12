@@ -17,6 +17,8 @@ export default function CardContainer() {
           title={project.title}
           description={project.description}
           stack={project.stack}
+          git={project.github}
+          live={project.live}
         />
       ))}
     </motion.div>
