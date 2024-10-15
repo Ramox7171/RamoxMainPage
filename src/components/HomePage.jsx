@@ -1,7 +1,7 @@
 import { homepageText } from '../assets/store/DATA';
 import '../style/HomePage.scss';
 import { NavLink } from 'react-router-dom';
-import reactlogo from '../assets/img/react_logo.png';
+import reactlogo from '/img/react_logo.png';
 import { motion } from 'framer-motion';
 
 export default function HomePage() {
