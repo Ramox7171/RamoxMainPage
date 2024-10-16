@@ -6,6 +6,9 @@ import About from '../components/About.jsx';
 import ContactForm from '../components/ContactForm.jsx';
 import RootLayout from '../components/Root.jsx';
 import HomePage from '../components/HomePage.jsx';
+import PhotoLayout from '../components/PhotoLayout.tsx';
+import PhotoGallery from '../components/PhotoGallery.tsx';
+import PhotoDetails from '../components/PhotoDetails.tsx';
 
 // export const router = createBrowserRouter([
 //   {
@@ -33,14 +36,14 @@ export const router = createBrowserRouter([
       { path: 'blog', element: <Blog /> },
       { path: 'about', element: <About /> },
       { path: 'contact', element: <ContactForm /> },
-      // {
-      //   path: 'foto', // Nowa sekcja dla /foto
-      //   element: <PhotoGallery />, // Główny komponent dla /foto
-      //   children: [
-      //     { path: '/', element: <PhotoGallery /> }, // Widok galerii zdjęć
-      //     { path: ':id', element: <PhotoDetails /> }, // Widok szczegółów zdjęcia
-      //   ],
-      // },
+      {
+        path: 'foto', // Nowa sekcja dla /foto
+        element: <PhotoLayout />, // Główny komponent dla /foto
+        children: [
+          { path: '/foto/gallery', element: <PhotoGallery /> }, // Widok galerii zdjęć
+          { path: ':id', element: <PhotoDetails /> }, // Widok szczegółów zdjęcia
+        ],
+      },
     ],
   },
 ]);
