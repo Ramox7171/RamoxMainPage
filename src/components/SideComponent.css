@@ -1,0 +1,144 @@
+/* Przycisk otwierający */
+.side-component__button {
+  position: fixed;
+  top: 50%;
+  transform: translateY(-50%);
+  background: none;
+  color: red;
+  font-size: 20px;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  z-index: 1000;
+  transform: rotate(90deg); 
+}
+
+
+.side-component__button--left {
+  left: 0;
+  transform: rotate(-90deg);
+}
+
+.side-component__button--right {
+  right: 0;
+}
+
+/* Menu boczne */
+.side-component__menu {
+  position: fixed;
+  top: 0;
+  height: 100%;
+  width: 100%; 
+  background-color: rgba(0, 0, 0, 0.9); 
+  color: blue;
+  display: flex;
+  justify-content: center; 
+  align-items: center;     
+}
+
+
+.side-component__menu.left {
+  transform: translateX(-100%); 
+}
+
+.side-component__menu.right {
+  transform: translateX(100%); 
+}
+
+
+.side-component__menu.open.left {
+  animation: slideBounceLeft 0.5s forwards; 
+}
+
+.side-component__menu.open.right {
+  animation: slideBounceRight 0.5s forwards; 
+}
+
+
+.side-component__menu.left.closing {
+  animation: bounceOutLeft 0.5s forwards; 
+}
+
+.side-component__menu.right.closing {
+  animation: bounceOutRight 0.5s forwards; 
+}
+
+
+.side-component__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Lista w menu */
+.side-component__list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center; 
+}
+
+.side-component__list li {
+  margin-right: 20px; 
+}
+
+.side-component__list li a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.side-component__list li a:hover {
+  color: #f39c12; 
+}
+
+
+@keyframes slideBounceLeft {
+  0% {
+    transform: translateX(-100%);
+  }
+  60% {
+    transform: translateX(20%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideBounceRight {
+  0% {
+    transform: translateX(100%);
+  }
+  60% {
+    transform: translateX(-20%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+
+@keyframes bounceOutLeft {
+  0% {
+    transform: translateX(0);
+  }
+  60% {
+    transform: translateX(-20%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+@keyframes bounceOutRight {
+  0% {
+    transform: translateX(0);
+  }
+  60% {
+    transform: translateX(20%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
