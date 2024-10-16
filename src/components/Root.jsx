@@ -1,13 +1,14 @@
-import { Outlet } from 'react-router-dom';
+import { Outlet,useLocation } from 'react-router-dom';
 
 import Header from './Header';
 import Footer from './Footer';
 import '../style/Root.scss';
 
 function RootLayout() {
+  const location = useLocation();
   return (
     <>
-      <Header />
+      {location.pathname !== '/foto' && <Header />}
       <div className='container'>
 
       <div className='wrapper'>
@@ -16,7 +17,7 @@ function RootLayout() {
         </div>
       </div>
       </div>
-      <Footer />
+      {location.pathname !== '/foto' && <Footer />}
     </>
   );
 }

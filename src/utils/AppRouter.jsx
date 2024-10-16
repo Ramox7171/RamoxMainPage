@@ -38,9 +38,9 @@ export const router = createBrowserRouter([
       { path: 'contact', element: <ContactForm /> },
       {
         path: 'foto', // Nowa sekcja dla /foto
-        element: <PhotoLayout />, // Główny komponent dla /foto
+        element: <PhotoLayout />, // Główny komponent dla /foto (bez nagłówka)
         children: [
-          { path: '/foto/gallery', element: <PhotoGallery /> }, // Widok galerii zdjęć
+          { path: 'gallery', element: <PhotoGallery /> }, // Widok galerii zdjęć
           { path: ':id', element: <PhotoDetails /> }, // Widok szczegółów zdjęcia
         ],
       },
