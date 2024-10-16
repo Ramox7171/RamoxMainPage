@@ -9,8 +9,8 @@ export default function HomePage() {
     <>
       <motion.div
         className="home"
-        initial={{ opacity: 0, x: 0 }}
-        animate={{ x: -30, opacity: 1 }}
+        initial={{ opacity: 0, x: 30 }}
+        animate={{ x: 0, opacity: 1 }}
         transition={{ duration: 1, type: 'spring' }}>
         <div className="react-logo">
           <img
@@ -22,8 +22,8 @@ export default function HomePage() {
       </motion.div>
       <motion.section
         className="home__section--links"
-        initial={{ opacity: 0, x: 0 }}
-        animate={{ x: -30, opacity: 1 }}
+        initial={{ opacity: 0, x: 30}}
+        animate={{ x: 0, opacity: 1 }}
         transition={{ duration: 1, type: 'spring' }}>
         <NavLink
           to="projects"

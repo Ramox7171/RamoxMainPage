@@ -7,8 +7,8 @@ export default function CardContainer() {
   return (
     <motion.div
       className="card-container"
-      initial={{ opacity: 0, x: 0 }}
-      animate={{ x: -30, opacity: 1 }}
+      initial={{ opacity: 0, x: 30 }}
+      animate={{ x: 0, opacity: 1 }}
       transition={{ duration: 1, type: 'spring' }}>
       {PROJECTS.map((project) => (
         <ProjectCardItem

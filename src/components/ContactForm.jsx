@@ -95,8 +95,8 @@ export default function ContactForm() {
 
 
   return (
-    <motion.div className='contact-form' initial={{ opacity: 0, x: 0 }}
-    animate={{ x: -30, opacity: 1 }}
+    <motion.div className='contact-form' initial={{ opacity: 0, x: 30 }}
+    animate={{ x: 0, opacity: 1 }}
     transition={{ duration: 1, type: 'spring' }}>
     
       <h2>Contact</h2>
