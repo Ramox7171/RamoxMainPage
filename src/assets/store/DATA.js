@@ -1,4 +1,6 @@
 import { v4 as uuidv4 } from 'uuid';
+import instagram from '../icons/Instagram.png';
+import facebook from '../icons/Facebook.png';
 export const PROJECTS = [
     
     {
@@ -98,4 +100,9 @@ export const PROJECTS = [
 export const homepageText =`Maybe I'm not a full-stack developer yet, but I'm always stack-ing up nicely.`;
 
 // 'Coding with curiosity, creating with conviction, and moving forward with sheer will, unwavering commitment, and intense focus—one line at a time.'
+
+export const links = [
+  {name: 'Instagram', url: 'https://www.instagram.com/ra.mox', icon:instagram},
+  {name: 'Facebook', url: 'https://www.facebook.com/ramoxpl', icon:facebook},
+]
 

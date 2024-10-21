@@ -1,8 +1,15 @@
 import React from "react";
+import '../style/PhotoHeader.scss'
 
 const PhotoHeader =()=>{
 
-    return <h1>Hi PhotoHeader</h1>
+    return <div className="pH1">
+        <ul>
+            <li>test</li>
+            <li>test</li>
+        </ul>
+
+    </div>
 }
 
 

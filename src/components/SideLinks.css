@@ -1,0 +1,45 @@
+.side-links {
+    position: fixed;
+    
+    left: 24px;
+    bottom: 64px;  /* Przesunięcie do krawędzi ekranu */
+    transform: translateY(-50%) rotate(270deg); /* Obrót o 90 stopni z wyrównaniem */
+    transform-origin: left center; /* Ustawienie punktu obrotu */
+    display: flex;
+    gap: 20px; /* Odstęp między linkami */
+    z-index: 2;
+    margin: 0; /* Usuń marginesy */
+    padding: 0; /* Usuń paddingi */
+    background: none; /* Usuń tło */
+}
+
+.side-link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    background: none; /* Usuń tło */
+    padding: 0; /* Usuń padding */
+    margin: 0; /* Usuń marginesy */
+}
+
+.side-link__icon {
+    width: 24px; 
+    height: 24px; /* Popraw rozmiar ikony */
+    margin-right: 5px; /* Odstęp między ikoną a tekstem */
+    background:none;
+}
+
+.side-link__text {
+    font-size: 16px;
+    color: rgb(245, 118, 68);
+    background: none;
+}
+
+
+.side-links.left {
+    left: 20px; /* Przesunięcie do lewej krawędzi */
+}
+
+.side-links.right {
+    right: 20px; /* Przesunięcie do prawej krawędzi */
+}
