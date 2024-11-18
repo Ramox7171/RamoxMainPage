@@ -4,15 +4,22 @@
   top: 50%;
   transform: translateY(-50%);
   background: none;
-  color:black;
+  color: black;
   font-size: 20px;
   padding: 10px 20px;
   border: none;
   cursor: pointer;
   z-index: 1000;
   transform: rotate(270deg); 
+  transition: color 0.3s ease; 
 }
 
+.side-component__button.is-open {
+  color: white; 
+  background: rgba(0, 0, 0, 0.3);
+  border: 2px solid;
+  border-radius: 10px;
+}
 
 .side-component__button--left {
   left: 0;
@@ -29,14 +36,13 @@
   top: 0;
   height: 100%;
   width: 100%; 
-  background-color: rgba(0, 0, 0, 0.9); 
+  background-color: rgba(0, 0, 0, 0.2); 
   color: blue;
   display: flex;
   justify-content: center; 
   align-items: center;     
   z-index: 999;
 }
-
 
 .side-component__menu.left {
   transform: translateX(-100%); 
@@ -46,7 +52,6 @@
   transform: translateX(100%); 
 }
 
-
 .side-component__menu.open.left {
   animation: slideBounceLeft 0.5s forwards; 
 }
@@ -55,7 +60,6 @@
   animation: slideBounceRight 0.5s forwards; 
 }
 
-
 .side-component__menu.left.closing {
   animation: bounceOutLeft 0.5s forwards; 
 }
@@ -63,7 +67,6 @@
 .side-component__menu.right.closing {
   animation: bounceOutRight 0.5s forwards; 
 }
-
 
 .side-component__content {
   display: flex;
@@ -94,7 +97,6 @@
   color: #f39c12; 
 }
 
-
 @keyframes slideBounceLeft {
   0% {
     transform: translateX(-100%);
@@ -118,7 +120,6 @@
     transform: translateX(0);
   }
 }
-
 
 @keyframes bounceOutLeft {
   0% {

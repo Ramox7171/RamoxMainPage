@@ -31,13 +31,12 @@ const SideComponent: React.FC<SideComponentProps> = ({ side = 'right',btnName, c
   return (
     <div>
       {/*  Menu */}
-      <button 
-        className={`side-component__button side-component__button--${side}`} 
-        onClick={toggleMenu}
-      >
-        {isOpen ? 'Close' : `${btnName}`}
-      </button>
-
+      <button
+  className={`side-component__button side-component__button--${side} ${isOpen ? 'is-open' : ''}`}
+  onClick={toggleMenu}
+>
+  {isOpen ? 'Close' : `${btnName}`}
+</button>
       {/* Menu boczne */}
       <div 
         className={`side-component__menu ${side} ${isOpen ? 'open' : ''} ${isClosing ? 'closing' : ''}`} 

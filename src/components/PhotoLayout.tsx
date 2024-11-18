@@ -4,18 +4,23 @@ import SideComponent from './SideComponent';
 import VideoDiv from './VideoDiv';
 import SideLinks from './SideLinks';
 import { links } from '../assets/store/DATA';
+import PhotoFooter from './PhotoFooter';
+import PhotoMenu from './PhotoMenu';
 
 
 
 const PhotoLayout = () => {
   return (
     <>
-      {/* Nie dodawaj Header tutaj */}
+     
       <SideLinks links={links} side='left' />
-      <SideComponent btnName='Genres'/>
+      <SideComponent btnName='Genres'>
+       <PhotoMenu />
+      </SideComponent>
       <VideoDiv />
 
-      <Outlet /> {/* Renderuj dzieci */}
+      <Outlet /> 
+      <PhotoFooter />
     </>
   );
 };
