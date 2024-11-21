@@ -5,7 +5,9 @@ import VideoDiv from './VideoDiv';
 import SideLinks from './SideLinks';
 import { links } from '../assets/store/DATA';
 import PhotoFooter from './PhotoFooter';
-import PhotoMenu from './PhotoMenu';
+import PhotoGallery from './PhotoGallery';
+import { portraitPh } from '../assets/store/DATA';
+// import PhotoMenu from './PhotoMenu';
 
 
 
@@ -15,7 +17,8 @@ const PhotoLayout = () => {
      
       <SideLinks links={links} side='left' />
       <SideComponent btnName='Genres'>
-       <PhotoMenu />
+       {/* <PhotoMenu /> */}
+       <PhotoGallery items={portraitPh} />
       </SideComponent>
       <VideoDiv />
 

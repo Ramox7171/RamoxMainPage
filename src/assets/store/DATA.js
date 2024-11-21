@@ -1,6 +1,20 @@
 import { v4 as uuidv4 } from 'uuid';
 import instagram from '../icons/Instagram.png';
 import facebook from '../icons/Facebook.png';
+
+import img1 from '../img/photos/portrait/1.jpg';
+import img2 from '../img/photos/portrait/2.jpg';
+import img3 from '../img/photos/portrait/3.jpg';
+import img4 from '../img/photos/portrait/4.jpg';
+import img5 from '../img/photos/portrait/5.jpg';
+import img6 from '../img/photos/portrait/6.jpg';
+import img7 from '../img/photos/portrait/7.jpg';
+import img8 from '../img/photos/portrait/8.jpg';
+import img9 from '../img/photos/portrait/9.jpg';
+import img10 from '../img/photos/portrait/10.jpg';
+
+
+
 export const PROJECTS = [
     
     {
@@ -104,5 +118,69 @@ export const homepageText =`Maybe I'm not a full-stack developer yet, but I'm al
 export const links = [
   {name: 'Instagram', url: 'https://www.instagram.com/ra.mox', icon:instagram},
   {name: 'Facebook', url: 'https://www.facebook.com/ramoxpl', icon:facebook},
+
+  
 ]
 
+export const portraitPh = [
+  {
+    id: Math.random() * 100 / 2,
+    title: 'studio1',
+    img: img1,
+    description: 'Zdjęcie studyjne 1',
+  },
+  {
+    id: Math.random() * 100 / 2,
+    title: 'studio2',
+    img: img2,
+    description: 'Zdjęcie studyjne 2',
+  },
+  {
+    id: Math.random() * 100 / 2,
+    title: 'studio3',
+    img: img3,
+    description: 'Zdjęcie studyjne 3',
+  },
+  {
+    id: Math.random() * 100 / 2,
+    title: 'studio4',
+    img: img4,
+    description: 'Zdjęcie studyjne 4',
+  },
+  {
+    id: Math.random() * 100 / 2,
+    title: 'studio5',
+    img: img5,
+    description: 'Zdjęcie studyjne 5',
+  },
+  {
+    id: Math.random() * 100 / 2,
+    title: 'studio6',
+    img: img6,
+    description: 'Zdjęcie studyjne 6',
+  },
+  {
+    id: Math.random() * 100 / 2,
+    title: 'studio7',
+    img: img7,
+    description: 'Zdjęcie studyjne 7',
+  },
+  {
+    id: Math.random() * 100 / 2,
+    title: 'studio8',
+    img: img8,
+    description: 'Zdjęcie studyjne 8',
+  },
+  {
+    id: Math.random() * 100 / 2,
+    title: 'studio9',
+    img: img9,
+    description: 'Zdjęcie studyjne 9',
+  },
+  {
+    id: Math.random() * 100 / 2,
+    title: 'studio10',
+    img: img10,
+    description: 'Zdjęcie studyjne 10',
+  },
+];

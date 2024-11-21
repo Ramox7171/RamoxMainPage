@@ -11,6 +11,7 @@
     margin: 0; /* Usuń marginesy */
     padding: 0; /* Usuń paddingi */
     background: none; /* Usuń tło */
+    z-index: 1001;
 }
 
 .side-link {
