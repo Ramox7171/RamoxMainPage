@@ -14,7 +14,7 @@
     overflow: hidden;
     transition: transform 0.5s ease, filter 0.5s ease;
 
-    // Tło i efekt hover
+   
     &::before {
       content: "";
       position: absolute;
@@ -69,3 +69,45 @@
     }
   }
 }
+
+  .photo-gallery-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* Galeria i przycisk mają przestrzeń między sobą */
+  align-items: center;
+  min-height: 90vh; /* Zapewnia wypełnienie całego widoku ekranu */
+
+  .photo-gallery__back-button-wrapper {
+    position:relative;
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    margin-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .photo-gallery__back-button {
+    position:absolute;
+    border: none;
+    background-color: #333;
+    color: white;
+    background: rgba(0, 0, 0,0.4 );
+      border:2px solid white;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    bottom: 10vh;
+    &:hover {
+      background-color: #555;
+      transform: scale(1.05);
+    }
+
+    &:active {
+      transform: scale(0.95);
+    }
+  }
+}
+

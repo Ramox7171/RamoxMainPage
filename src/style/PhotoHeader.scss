@@ -1,10 +1,35 @@
-.pH1 {
-    background-color: transparent;
+.pHeader {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top:50vh;
+    left:50vh;
+  background-color: transparent;
+  z-index: 1002;
+
+  button {
+    
+    width: 40vh;
+    border: none;
+    background-color: #333;
+    color: white;
+    background: rgba(0, 0, 0, 0.1);
+    border: 2px solid white;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    bottom: 10vh;
+    &:hover {
+      background-color: #555;
+      transform: scale(1.05);
     }
 
-        ul{
-            li {
-                background-color: rgba(0,0 ,0 ,0.5 );
-                }
-            
-            }
+    &:active {
+      transform: scale(0.95);
+    }
+  }
+}

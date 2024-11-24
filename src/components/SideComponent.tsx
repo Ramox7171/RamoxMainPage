@@ -1,5 +1,5 @@
 import { useState, ReactNode } from 'react';
-import './SideComponent.css';
+import '../style/SideComponent.css';
 import React from 'react';
 
 

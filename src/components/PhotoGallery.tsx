@@ -63,10 +63,11 @@ const PhotoGallery = ({ items }: PhotoGalleryProps) => {
     return () => {
       window.removeEventListener("keydown", handleKeyDown);
     };
-  }, [openModal]);
+  }, [openModal, items]);
 
   return (
     <>
+      {/* Modal */}
       {openModal && items.length > 0 && items[photoNumber] && (
         <div className="slider-wrap">
           <div className="fullScreenImage">
@@ -100,12 +101,13 @@ const PhotoGallery = ({ items }: PhotoGalleryProps) => {
         </div>
       )}
 
+      {/* Gallery */}
       <div className="gallery-wrap">
         {items &&
           items.map((photo, index) => (
             <div
               className="photo"
-              key={index}
+              key={photo.id} // Unique ID is used instead of index
               onClick={() => handleOpenModal(index)}
             >
               <img src={photo.img} alt={photo.title} />

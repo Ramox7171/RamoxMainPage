@@ -1,5 +1,5 @@
 import React from 'react';
-import './SideLinks.css';
+import '../style/SideLinks.css';
 
 interface LinkProps {
     name: string;

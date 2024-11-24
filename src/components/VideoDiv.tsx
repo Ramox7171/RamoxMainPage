@@ -1,5 +1,5 @@
 import React from "react";
-import "./VideoDiv.css";
+import "../style/VideoDiv.css";
 import videoBg from '../assets/video/test4.mp4';
 
 const VideoDiv = () => {

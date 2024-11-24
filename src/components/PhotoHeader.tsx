@@ -3,11 +3,10 @@ import '../style/PhotoHeader.scss'
 
 const PhotoHeader =()=>{
 
-    return <div className="pH1">
-        <ul>
-            <li>test</li>
-            <li>test</li>
-        </ul>
+    return <div className="pHeader">
+        <button>
+            About
+        </button>
 
     </div>
 }
