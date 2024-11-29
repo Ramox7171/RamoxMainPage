@@ -15,6 +15,7 @@
   box-sizing: border-box;
   
   
+  
 }
 
 .wrapper {
@@ -28,12 +29,14 @@
 
 
 .main {
-  text-align: left;
-  display: inline-block;
-  width: 100%; 
-  
-  
-  
+  max-height: 800px;
+  overflow-y: scroll; /* Scrollowanie */
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* Internet Explorer 10+ */
+
+  &::-webkit-scrollbar {
+    display: none; /* Chrome, Safari */
+  }
 }
 
 h1 {

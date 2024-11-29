@@ -108,7 +108,7 @@ export default function ContactForm() {
       <form ref={form} onSubmit={handleSubmit}>
         <div className='contact-form__control-row'>
           <Input
-            label='Name'
+            placeholder= "Your name"
             id='name'
             type='text'
             name='user_name'
@@ -118,12 +118,13 @@ export default function ContactForm() {
             error={nameHasError && 'Please input name.'}
           />
           <Input
-            label='Email'
+            
             id='email'
             type='email'
             name='user_email'
             onChange={handleEmailChange}
             onBlur={handleEmailBlur}
+            placeholder="Your email"
             value={emailValue}
             error={emailHasError && 'Please enter valid email.'}
           />
@@ -134,6 +135,7 @@ export default function ContactForm() {
             onChange={handleTextChange}
             onBlur={handleTextBlur}
             name='message'
+            placeholder="Enter your message here"
           />
           {messageHasError && <p className='contact-form__control-error'>Message is required.</p>}
           {sendingStatus && <p className='contact-form__control-error'>{sendingStatus}</p>}
