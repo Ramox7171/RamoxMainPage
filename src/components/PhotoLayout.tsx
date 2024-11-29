@@ -8,12 +8,12 @@ import PhotoFooter from '../components/PhotoFooter.tsx';
 
 
 import PhotoMenu from "./PhotoMenu";
-import PhotoHeader from "./PhotoHeader";
+import PhotoAbout from "./PhotoAbout.tsx";
 
 const PhotoLayout = () => {
   return (
     <>
-    <PhotoHeader />
+   
       <SideLinks
         links={links}
         side="left"
@@ -21,12 +21,12 @@ const PhotoLayout = () => {
       <SideComponent btnName="Genres">
         <PhotoMenu />
       </SideComponent>
-      
-      
+      <PhotoAbout />
+      <Outlet />
       <VideoDiv />
       <PhotoFooter />
 
-      <Outlet />
+      
       
       
     </>

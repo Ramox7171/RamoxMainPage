@@ -14,7 +14,7 @@ import img9 from '../img/photos/portrait/9.jpg';
 import img10 from '../img/photos/portrait/10.jpg';
 
 
-
+export const lorem ='Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam impedit, error ad at aspernatur atque tempora aut adipisci omnis eveniet expedita aliquid deserunt, totam libero eligendi provident? Distinctio, ab fuga.';
 export const PROJECTS = [
     
     {
