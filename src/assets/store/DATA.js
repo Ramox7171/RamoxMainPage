@@ -2,16 +2,64 @@ import { v4 as uuidv4 } from "uuid";
 import instagram from "../icons/Instagram.png";
 import facebook from "../icons/Facebook.png";
 
-import img1 from "../img/photos/portrait/1.jpg";
-import img2 from "../img/photos/portrait/2.jpg";
-import img3 from "../img/photos/portrait/3.jpg";
-import img4 from "../img/photos/portrait/4.jpg";
-import img5 from "../img/photos/portrait/5.jpg";
-import img6 from "../img/photos/portrait/6.jpg";
-import img7 from "../img/photos/portrait/7.jpg";
-import img8 from "../img/photos/portrait/8.jpg";
-import img9 from "../img/photos/portrait/9.jpg";
-import img10 from "../img/photos/portrait/10.jpg";
+// PEOPLE
+
+import people1 from "../img/photos/people/people-1.png";
+import people2 from "../img/photos/people/people-2.jpg";
+import people3 from "../img/photos/people/people-3.jpg";
+import people4 from "../img/photos/people/people-4.jpg";
+import people5 from "../img/photos/people/people-5.jpg";
+import people6 from "../img/photos/people/people-6.jpg";
+import people7 from "../img/photos/people/people-7.jpg";
+import people8 from "../img/photos/people/people-8.jpg";
+import people9 from "../img/photos/people/people-9.jpg";
+import people10 from "../img/photos/people/people-10.jpg";
+import people11 from "../img/photos/people/people-11.jpg";
+import people12 from "../img/photos/people/people-12.jpg";
+//PRODUCT
+
+import product1 from "../img/photos/product/prod-1.jpg";
+import product2 from "../img/photos/product/prod-2.jpg";
+import product3 from "../img/photos/product/prod-3.jpg";
+import product4 from "../img/photos/product/prod-4.jpg";
+import product5 from "../img/photos/product/prod-5.jpg";
+import product6 from "../img/photos/product/prod-6.jpg";
+import product7 from "../img/photos/product/prod-7.jpg";
+import product8 from "../img/photos/product/prod-8.jpg";
+import product9 from "../img/photos/product/prod-9.jpg";
+import product10 from "../img/photos/product/prod-10.jpg";
+import product11 from "../img/photos/product/prod-11.jpg";
+
+
+//AUTOMOTIVE
+import auto1 from "../img/photos/automotive/auto-1.jpg";
+import auto2 from "../img/photos/automotive/auto-2.jpg";
+import auto3 from "../img/photos/automotive/auto-3.jpg";
+import auto4 from "../img/photos/automotive/auto-4.jpg";
+import auto5 from "../img/photos/automotive/auto-5.jpg";
+import auto6 from "../img/photos/automotive/auto-6.jpg";
+import auto7 from "../img/photos/automotive/auto-7.jpg";
+import auto8 from "../img/photos/automotive/auto-8.jpg";
+import auto9 from "../img/photos/automotive/auto-9.jpg";
+import auto10 from "../img/photos/automotive/auto-10.jpg";
+import auto11 from "../img/photos/automotive/auto-11.jpg";
+
+//ANIMALS
+import animal1 from "../img/photos/animals/animal-1.jpg";
+import animal2 from "../img/photos/animals/animal-2.jpg";
+import animal3 from "../img/photos/animals/animal-3.jpg";
+import animal4 from "../img/photos/animals/animal-4.jpg";
+import animal5 from "../img/photos/animals/animal-5.jpg";
+import animal6 from "../img/photos/animals/animal-6.jpg";
+import animal7 from "../img/photos/animals/animal-7.jpg";
+import animal8 from "../img/photos/animals/animal-8.jpg";
+import animal9 from "../img/photos/animals/animal-9.jpg";
+import animal10 from "../img/photos/animals/animal-10.jpg";
+import animal11 from "../img/photos/animals/animal-11.jpg";
+import animal12 from "../img/photos/animals/animal-12.jpg";
+
+
+
 
 export const lorem =
   "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam impedit, error ad at aspernatur atque tempora aut adipisci omnis eveniet expedita aliquid deserunt, totam libero eligendi provident? Distinctio, ab fuga.";
@@ -140,73 +188,327 @@ export const links = [
 
 export const photos = [
   {
-    id: 1,
-    title: "studio1",
-    img: img1,
-    description: "Zdjęcie studyjne 1",
+    id: uuidv4(),
+    title: "Hetman-Sunset",
+    img: animal1,
+    description: "Hetman at Sunset",
+    category: "animals",
+  },
+  {
+    id: uuidv4(),
+    title: "Hetman with flowers",
+    img: animal12,
+    description: "Hetman with flowers",
+    category: "animals",
+  },
+  {
+    id: uuidv4(),
+    title: "Orkan at Moutain of Sand ",
+    img: animal11,
+    description: "Orkan at Moutain of Sand",
+    category: "animals",
+  },
+  {
+    id: uuidv4(),
+    title: "Orkan with white flowers ",
+    img: animal10,
+    description: "Orkan with white flowers",
+    category: "animals",
+  },
+  {
+    id: uuidv4(),
+    title: "Shema with stick ",
+    img: animal9,
+    description: "Shema with stick",
+    category: "animals",
+  },
+  {
+    id: uuidv4(),
+    title: "Lucas in Park ",
+    img: animal8,
+    description: "Lucas in Park",
+    category: "animals",
+  },
+  {
+    id: uuidv4(),
+    title: "Luna catching treat ",
+    img: animal7,
+    description: "Luna catching treat",
+    category: "animals",
+  },
+  {
+    id: uuidv4(),
+    title: "Happy Chilla ",
+    img: animal6,
+    description: "Happy Chilla",
+    category: "animals",
+  },
+  {
+    id: uuidv4(),
+    title: "Fanta at field ",
+    img: animal5,
+    description: "Fanta at field",
+    category: "animals",
+  },
+  {
+    id: uuidv4(),
+    title: "Abra eyes",
+    img: animal4,
+    description: "Abra eyes",
+    category: "animals",
+  },
+  {
+    id: uuidv4(),
+    title: "Hetman running",
+    img: animal3,
+    description: "Hetman running",
+    category: "animals",
+  },
+  {
+    id: uuidv4(),
+    title: "Small Hetman with Snuffle Mat",
+    img: animal2,
+    description: "Small Hetman with Snuffle Mat",
+    category: "animals",
+  },
+  {
+    id: uuidv4(),
+    title: "Indian Motorcycle",
+    img: auto1,
+    description: "Beautiful Indian",
+    category: "automotive",
+  },
+  {
+    id: uuidv4(),
+    title: "370 Nismo Back",
+    img: auto2,
+    description: "Beautiful Nissan 370Z Nismo at night.",
+    category: "automotive",
+  },
+  {
+    id: uuidv4(),
+    title: "Golf Mk IV Front",
+    img: auto3,
+    description: "Just Humble VAG",
+    category: "automotive",
+  },
+  {
+    id: uuidv4(),
+    title: "Nismo Eye",
+    img: auto4,
+    description: "Beautiful Nissan 370Z Nismo headlight",
+    category: "automotive",
+  },
+  {
+    id: uuidv4(),
+    title: "Mercedes Odometer",
+    img: auto5,
+    description: "Mercedes Odometer - nothing more",
+    category: "automotive",
+  },
+  {
+    id: uuidv4(),
+    title: "E36 Odo",
+    img: auto6,
+    description: "E36 Odometer",
+    category: "automotive",
+  },
+  {
+    id: uuidv4(),
+    title: "E36 Dakargelb back",
+    img: auto7,
+    description: "E36 Dakargelb back.",
+    category: "automotive",
+  },
+  {
+    id: uuidv4(),
+    title: "E36 Dakargelb Front",
+    img: auto8,
+    description: "E36 Dakargelb Front ",
+    category: "automotive",
+  },
+  {
+    id: uuidv4(),
+    title: "Nismo at sun",
+    img: auto9,
+    description: "Nismo at sun ",
+    category: "automotive",
+  },
+  {
+    id: uuidv4(),
+    title: "Subaru Odometer",
+    img: auto10,
+    description: "Subaru Odometer",
+    category: "automotive",
+  },
+  {
+    id: uuidv4(),
+    title: "911 front",
+    img: auto11,
+    description: "Just White 911 at Łódź Autodrome ",
+    category: "automotive",
+  },
+  {
+    id: uuidv4(),
+    title: "Unicorn",
+    img: people1,
+    description: "UV Makeup. Mod. Nikola Cirocka MUA: Adrianna Talkowska",
     category: "people",
   },
   {
-    id: 2,
-    title: "studio2",
-    img: img2,
-    description: "Zdjęcie studyjne 2",
+    id: uuidv4(),
+    title:"Just Smile",
+    img: people2,
+    description: "Mod. Magda Rząp",
     category: "people",
   },
   {
-    id: 3,
-    title: "studio3",
-    img: img3,
-    description: "Zdjęcie studyjne 3",
+    id: uuidv4(),
+    title:"Black with RED",
+    img: people3,
+    description: "Mod. Natalia Sulak, MUA: Marta Balbuza",
     category: "people",
   },
   {
-    id: 4,
-    title: "studio4",
-    img: img4,
-    description: "Zdjęcie studyjne 4",
+    id: uuidv4(),
+    title:"Black Swan",
+    img: people4,
+    description: "Mod. Anita Sawicka, MUA: Marta Balbuza",
     category: "people",
   },
   {
-    id: 5,
-    title: "studio5",
-    img: img5,
-    description: "Zdjęcie studyjne 5",
+    id: uuidv4(),
+    title:"Black flower",
+    img: people5,
+    description: "Mod. Roksana Korzeniowska , MUA: Marta Balbuza",
     category: "people",
   },
   {
-    id: 6,
-    title: "studio6",
-    img: img6,
-    description: "Zdjęcie studyjne 6",
+    id: uuidv4(),
+    title:"Black Swan II",
+    img: people6,
+    description: "Mod. Anita Sawicka, MUA: Marta Balbuza",
     category: "people",
   },
   {
-    id: 7,
-    title: "studio7",
-    img: img7,
-    description: "Zdjęcie studyjne 7",
+    id: uuidv4(),
+    title:"Concept Glamour",
+    img: people7,
+    description: "Mod. Anita Sawicka, MUA: Marta Balbuza",
     category: "people",
   },
   {
-    id: 8,
-    title: "studio8",
-    img: img8,
-    description: "Zdjęcie studyjne 8",
+    id: uuidv4(),
+    title:"Clean Beauty",
+    img: people8,
+    description: "Mod. Anna Wiktorowska MUA: Marta Balbuza ",
     category: "people",
   },
   {
-    id: 9,
-    title: "studio9",
-    img: img9,
-    description: "Zdjęcie studyjne 9",
+    id: uuidv4(),
+    title:"Clean Beauty",
+    img: people9,
+    description: "Mod. Anna Wiktorowska MUA: Marta Balbuza ",
     category: "people",
   },
   {
-    id: 10,
-    title: "studio10",
-    img: img10,
-    description: "Zdjęcie studyjne 10",
+    id: uuidv4(),
+    title:"Color Rain",
+    img: people10,
+    description: "Mod.Roksana Sawicka, MUA: Adrianna Talkowska ",
     category: "people",
   },
+  {
+    id: uuidv4(),
+    title:"Elegant",
+    img: people11,
+    description: "Mod. Dominika Tomaszewska MUA: Kinga Warakomska ",
+    category: "people",
+  },
+  {
+    id: uuidv4(),
+    title:"Just Beauty",
+    img: people12,
+    description: "Mod. Ola Przywitowska MUA: Marta Balbuza ",
+    category: "people",
+  },
+  {
+    id: uuidv4(),
+    title:"Heineken",
+    img: product1,
+    description: "Improvised staged photo",
+    category: "product",
+  },
+  {
+    id: uuidv4(),
+    title:"Yellow Bulb",
+    img: product2,
+    description: "Yellow Bulb with water",
+    category: "product",
+  },
+  {
+    id: uuidv4(),
+    title:"Kong Strong ",
+    img: product3,
+    description: "Testing new set",
+    category: "product",
+  },
+  {
+    id: uuidv4(),
+    title:"Flower",
+    img: product4,
+    description: "Minimalism",
+    category: "product",
+  },
+  {
+    id: uuidv4(),
+    title:"Razor",
+    img: product5,
+    description: "Colorful shot",
+    category: "product",
+  },
+  {
+    id: uuidv4(),
+    title:"Merlin Steak",
+    img: product6,
+    description: "From favorite Steakhouse",
+    category: "product",
+  },
+  {
+    id: uuidv4(),
+    title:"Coffe World",
+    img: product7,
+    description: "...",
+    category: "product",
+  },
+  {
+    id: uuidv4(),
+    title:"Sand Sand Sand",
+    img: product8,
+    description: "Testing harsh light.",
+    category: "product",
+  },
+  {
+    id: uuidv4(),
+    title:"Part of Zitrone",
+    img: product9,
+    description: "WTF",
+    category: "product",
+  },
+  {
+    id: uuidv4(),
+    title:"Icy Ice",
+    img: product10,
+    description: "As you see",
+    category: "product",
+  },
+  {
+    id: uuidv4(),
+    title:"5D Mark IV",
+    img: product11,
+    description: "Just camera",
+    category: "product",
+  },
+
+
 ];

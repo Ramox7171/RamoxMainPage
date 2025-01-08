@@ -5,7 +5,7 @@ import left from "../assets/icons/left.png";
 import right from "../assets/icons/right.png";
 
 interface PhotoGalleryItem {
-  id: number;
+  id: string;
   title: string;
   img: string;
   description: string;
@@ -107,7 +107,7 @@ const PhotoGallery = ({ items }: PhotoGalleryProps) => {
           items.map((photo, index) => (
             <div
               className="photo"
-              key={photo.id} // Unique ID is used instead of index
+              key={photo.id} 
               onClick={() => handleOpenModal(index)}
             >
               <img src={photo.img} alt={photo.title} />

@@ -33,9 +33,9 @@
       cursor: pointer;
     }
 
-    // Tła dla różnych klas
+    
     &.nude::before {
-      background-image: url("../assets/img/nude.jpg");
+      background-image: url("../assets/img/product.jpg");
     }
 
     &.portrait::before {
@@ -73,9 +73,9 @@
   .photo-gallery-wrapper {
   display: flex;
   flex-direction: column;
-  justify-content: space-between; /* Galeria i przycisk mają przestrzeń między sobą */
+  justify-content: space-between; 
   align-items: center;
-  min-height: 90vh; /* Zapewnia wypełnienie całego widoku ekranu */
+  min-height: 90vh; 
 
   .photo-gallery__back-button-wrapper {
     position:relative;

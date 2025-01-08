@@ -33,6 +33,15 @@
       transform: scale(0.95);
     }
   }
+
+  .photoAbout__picture {
+    display:flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    background: none;
+    
+    }
   .photoAbout__content {
     position: relative;
     display: flex;
@@ -73,6 +82,14 @@
         }
       }
     }
+    .photoAbout__info {
+      h2 {
+        
+        color: #dadada;
+        
+        }
+      
+      }
 
     p {
       color: #fff;

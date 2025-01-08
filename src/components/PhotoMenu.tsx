@@ -11,7 +11,7 @@ const PhotoMenu = () => {
     setSelectedCategory(category);
   };
 
-  // Filtruj dane na podstawie wybranej kategorii
+  
   const filteredPhotos =
     selectedCategory === null
       ? []
@@ -28,10 +28,10 @@ const PhotoMenu = () => {
             <span className="photo-menu__button__text">People</span>
           </button>
           <button
-            onClick={() => handleButtonClick("nude")}
+            onClick={() => handleButtonClick("product")}
             className="photo-menu__button nude"
           >
-            <span className="photo-menu__button__text">Nude</span>
+            <span className="photo-menu__button__text">Product</span>
           </button>
           <button
             onClick={() => handleButtonClick("animals")}
