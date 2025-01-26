@@ -66,12 +66,20 @@ export const lorem =
 export const PROJECTS = [
   {
     id: uuidv4(),
+    imgSrc: "/img/qr-card.png",
+    title: "QR generator",
+    description:"This project is a QR Code Generator built using React and TypeScript. It allows users to input a URL, generate a QR code, and download it as a PNG file. The app uses the qrcode library to generate QR codes and is styled using SCSS for a clean and responsive user interface.",
+    stack: ["React", "Vite.js", "TypeScript", "CSS/SCSS"],
+    live: "https://www.google.pl",
+    github: "https://github.com/Ramox7171/qrgenerator",
+  },{
+    id: uuidv4(),
     imgSrc: "/img/hood-card.png",
     title: "The Hood Project",
     description:
       "Project The Hood revitalizes the MTA game mod for GTA San Andreas. In collaboration with other developers and fans of this classic title, I create graphical interfaces for a custom server system. The project is centered around roleplay gameplay, where players immerse themselves in the server's life by portraying characters they've imagined, all within a unique district-based system.",
     stack: ["React", "Vite.js", "TypeScript", "CSS/SCSS"],
-    live: "https://www.google.pl",
+    live: "https://qrgenerator-f6t8du4d2-ramox7171s-projects.vercel.app/",
     github: "https://www.git.com",
   },
   {
