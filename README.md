@@ -1,5 +1,7 @@
 # Personal Website - Frontend Developer Portfolio
 ![Untitled-2](https://github.com/user-attachments/assets/60e4e05f-564f-4d0a-9350-0f20e2c3c2eb)
+![fotopage](https://github.com/user-attachments/assets/1ddff19e-6aca-4f2a-99b4-fd15d375822b)
+
 
 Welcome to my personal corner of the web! This website serves as a digital representation of myself as a **Frontend Developer**, showcasing my journey through JavaScript, React, and other web development technologies.
 
