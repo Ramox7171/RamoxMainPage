@@ -1,5 +1,6 @@
 # Personal Website - Frontend Developer Portfolio
-![Untitled-2](https://github.com/user-attachments/assets/60e4e05f-564f-4d0a-9350-0f20e2c3c2eb)
+![mainpage](https://github.com/user-attachments/assets/9718435e-129b-41fe-b329-ad66655b87dd)
+
 ![fotopage](https://github.com/user-attachments/assets/1ddff19e-6aca-4f2a-99b4-fd15d375822b)
 
 
