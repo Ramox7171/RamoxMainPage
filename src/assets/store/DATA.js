@@ -66,6 +66,15 @@ export const lorem =
 export const PROJECTS = [
   {
     id: uuidv4(),
+    imgSrc: "/img/bakery-card.png",
+    title: "Bakery Landing Page",
+    description: "A modern, responsive landing page for a bakery offering home delivery subscriptions. Built using React and TypeScript, styled with Tailwind CSS, and featuring Lucide icons. The project includes sections such as hero, features, pricing, testimonials, and a step-by-step process showcase.",
+    stack: ["React", "TypeScript", "Vite.js", "Tailwind CSS", "Lucide Icons", "Framer Motion (planned)"],
+    live: "https://your-live-demo-link.com",
+    github: "https://github.com/Ramox7171/lp-bakery",
+},
+  {
+    id: uuidv4(),
     imgSrc: "/img/qr-card.png",
     title: "QR generator",
     description:"This project is a QR Code Generator built using React and TypeScript. It allows users to input a URL, generate a QR code, and download it as a PNG file. The app uses the qrcode library to generate QR codes and is styled using SCSS for a clean and responsive user interface.",
