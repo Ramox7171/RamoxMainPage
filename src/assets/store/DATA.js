@@ -70,7 +70,7 @@ export const PROJECTS = [
     title: "Bakery Landing Page",
     description: "A modern, responsive landing page for a bakery offering home delivery subscriptions. Built using React and TypeScript, styled with Tailwind CSS, and featuring Lucide icons. The project includes sections such as hero, features, pricing, testimonials, and a step-by-step process showcase.",
     stack: ["React", "TypeScript", "Vite.js", "Tailwind CSS", "Lucide Icons", "Framer Motion (planned)"],
-    live: "https://your-live-demo-link.com",
+    live: "https://lp-bakery.vercel.app/",
     github: "https://github.com/Ramox7171/lp-bakery",
 },
   {
