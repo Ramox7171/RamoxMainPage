@@ -79,7 +79,7 @@ export const PROJECTS = [
     title: "QR generator",
     description:"This project is a QR Code Generator built using React and TypeScript. It allows users to input a URL, generate a QR code, and download it as a PNG file. The app uses the qrcode library to generate QR codes and is styled using SCSS for a clean and responsive user interface.",
     stack: ["React", "Vite.js", "TypeScript", "CSS/SCSS"],
-    live: "https://www.google.pl",
+    live: "https://qrgenerator-f6t8du4d2-ramox7171s-projects.vercel.app/",
     github: "https://github.com/Ramox7171/qrgenerator",
   },{
     id: uuidv4(),
@@ -105,8 +105,8 @@ export const PROJECTS = [
     title: "Personal Website",
     description: "A personal website project showcasing information about my work as a developer. The design evolves with me, incorporating various technologies, and includes a hidden link to my photography portfolio. Try to find it :)",
     stack: ["JavaScript", "React.JS", "React Router", "FRAMER MOTION", "CSS/SCSS", "EMAIL.JS", "ADOBE PHOTOSHOP"],
-    live: "www.google.pl",
-    github: "www.git.com",
+    live: "https://ramoxpl.vercel.app/",
+    github: "https://github.com/Ramox7171/RamoxMainPage",
   },
   {
     id: uuidv4(),

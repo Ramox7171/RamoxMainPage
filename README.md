@@ -3,6 +3,8 @@
 
 ![fotopage](https://github.com/user-attachments/assets/1ddff19e-6aca-4f2a-99b4-fd15d375822b)
 
+## The project is currently hosted on Vercel Free, which may cause some performance issues
+
 
 Welcome to my personal corner of the web! This website serves as a digital representation of myself as a **Frontend Developer**, showcasing my journey through JavaScript, React, and other web development technologies.
 
