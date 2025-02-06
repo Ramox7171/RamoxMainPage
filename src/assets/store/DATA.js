@@ -66,6 +66,14 @@ export const lorem =
 export const PROJECTS = [
   {
     id: uuidv4(),
+    imgSrc: "/img/only-card.png",
+    title: "Fans Only Calculator",
+    description: "This project is an  Fans Platform Calculator built with React, TypeScript, and Material-UI. It allows content creators to estimate their potential earnings on fan-based platforms by inputting key metrics such as reach, conversion rate, subscription price, and platform commission.",
+    stack: ["React", "Vite.js", "TypeScript", "Material-UI"],
+    live: "https://only-calc-alpha.vercel.app/",
+    github: "https://github.com/Ramox7171/only-calc",
+},{
+    id: uuidv4(),
     imgSrc: "/img/bakery-card.png",
     title: "Bakery Landing Page",
     description: "A modern, responsive landing page for a bakery offering home delivery subscriptions. Built using React and TypeScript, styled with Tailwind CSS, and featuring Lucide icons. The project includes sections such as hero, features, pricing, testimonials, and a step-by-step process showcase.",
