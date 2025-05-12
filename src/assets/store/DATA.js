@@ -66,6 +66,24 @@ export const lorem =
 export const PROJECTS = [
   {
     id: uuidv4(),
+    imgSrc: "/img/medlanding.png",
+    title: "Private Medical Clinic Website",
+    description:
+      "This project is a responsive multi-section landing page for a private medical clinic. It features modern UI/UX design, smooth scroll navigation, reusable SCSS components, and animated content reveal using Framer Motion. Sections include service pricing, visit preparation, clinic location with Google Maps integration, and more. The goal was to create an informative and user-friendly site tailored to patients’ needs.",
+    stack: [
+      "React",
+      "TypeScript",
+      "Vite",
+      "SCSS Modules",
+      "Framer Motion",
+      "Heroicons",
+      "Anchor Link",
+      "RWD"
+    ],
+    live: "https://med-landing-theta.vercel.app/", 
+    github: "https://github.com/Ramox7171/med-landing" 
+  },{
+    id: uuidv4(),
     imgSrc: "/img/buissnes-landing.png",
     title: "Business Training Landing Page",
     description:
