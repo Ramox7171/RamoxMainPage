@@ -81,7 +81,7 @@ export const PROJECTS = [
       "AOS (Animate On Scroll)",
       "RWD"
     ],
-    live: "#", 
+    live: "https://ekomers.vercel.app/", 
     github: "https://github.com/Ramox7171/ekomers"
   },
   {
