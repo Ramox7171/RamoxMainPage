@@ -85,6 +85,25 @@ export const PROJECTS = [
     github: "https://github.com/Ramox7171/ekomers"
   },
   {
+  id: uuidv4(),
+  imgSrc: "/img/fin-card.png",
+  title: "Financial Freedom Calculator",
+  description:
+    "An interactive financial-independence calculator that computes the capital required to live off returns using the 4% Rule, then shows how much you historically had to invest each month to reach it — based on 225 backtests on real US stock and bond market data spanning 1933–2023. All inputs (expenses, withdrawal rate, time horizon, stock/bond allocation) recalculate results live via a pure client-side computation engine, with three historical scenarios (lucky, median, unlucky) rendered side by side. Fully bilingual (PL/EN) through a custom i18n hook backed by a single strings file, with the active language persisted across visits.",
+  stack: [
+    "Next.js 16",
+    "TypeScript",
+    "React 18",
+    "Tailwind CSS",
+    "App Router",
+    "next/font",
+    "Custom i18n hook",
+    "RWD"
+  ],
+  live: "https://financial-freedom-calculator-six.vercel.app/",
+  github: "https://github.com/Ramox7171/financial-freedom-calculator"
+},
+  {
     id: uuidv4(),
     imgSrc: "/img/medlanding.png",
     title: "Private Medical Clinic Website",
