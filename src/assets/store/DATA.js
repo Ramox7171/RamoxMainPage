@@ -67,9 +67,9 @@ export const PROJECTS = [
   {
   id: uuidv4(),
   imgSrc: "/img/home-budget-card.png", 
-  title: "Budget Tracker - Modular Local-First Finance Manager",
+  title: "[WIP]Budget Tracker - Modular Local-First Finance Manager",
   description:
-    "A privacy-focused, local-first personal finance dashboard designed to run entirely in the browser and ready for Tauri desktop distribution. Features a modular architecture including an interactive Dashboard with custom SVG bar charts, an Envelope Budget Simulator with snapshot/export support, Pet Expense Tracking with emergency fund targets, a Vehicles Service & Repairs log with print-friendly reports, and an mBank CSV Account Importer with automatic deduplication. Built with PIN security (SHA-256), complete offline functionality, instant i18n switching, dark mode, and full JSON backup/restore capabilities.",
+    "[IN PROGRESS]A privacy-focused, local-first personal finance dashboard designed to run entirely in the browser and ready for Tauri desktop distribution. Features a modular architecture including an interactive Dashboard with custom SVG bar charts, an Envelope Budget Simulator with snapshot/export support, Pet Expense Tracking with emergency fund targets, a Vehicles Service & Repairs log with print-friendly reports, and an mBank CSV Account Importer with automatic deduplication. Built with PIN security (SHA-256), complete offline functionality, instant i18n switching, dark mode, and full JSON backup/restore capabilities.",
   stack: [
     "React 18",
     "TypeScript",
@@ -79,8 +79,8 @@ export const PROJECTS = [
     "Tauri Ready",
     "Web Storage API",
     "RWD"
-  ],
-  live: "#", 
+  ],  
+  live: "https://budget-tracker-alpha-blond.vercel.app/", 
   github: "https://github.com/Ramox7171/budget-tracker"
 },
   {
